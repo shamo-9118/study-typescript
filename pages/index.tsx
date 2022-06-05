@@ -12,6 +12,15 @@ function double(x: number): number | undefined {
   return x * 2;
 }
 
+const bar: boolean = false; 
+
+const voo: string = "今日は";
+const goo: string = `アンガー${voo}マネー` 
+
+const too: null = null; 
+const un : undefined = undefined; //undefinedを使う。
+
+
 const Home: NextPage = () => {
   return <div></div>;
 };
