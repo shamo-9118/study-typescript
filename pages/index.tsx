@@ -1,10 +1,19 @@
-import type { NextPage } from 'next'
+import type { NextPage } from "next";
 
+//↓型アサーション (基本使わない)
+let foo = {} as { bar: number };
+foo.bar = 1;
 
-const Home: NextPage = () => {
-  return (
-      <div></div>
-  )
+//型アノテーション
+function double(x: number): number | undefined {
+  if (x < 0) {
+    return;
+  }
+  return x * 2;
 }
 
-export default Home
+const Home: NextPage = () => {
+  return <div></div>;
+};
+
+export default Home;
