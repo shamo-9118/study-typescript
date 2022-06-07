@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 
+
 //↓型アサーション (基本使わない)
 let foo = {} as { bar: number };
 foo.bar = 1;
@@ -13,7 +14,7 @@ function double(x: number): number | undefined {
 }
 
 const Home: NextPage = () => {
-  return <div></div>;
+  return <div>Hello</div>;
 };
 
 export default Home;
