@@ -14,7 +14,7 @@ function double(x: number): number | undefined {
 }
 
 const Home: NextPage = () => {
-  return <div>Hello</div>;
+  return <div className=" text-4xl">Hello</div>;
 };
 
 export default Home;
